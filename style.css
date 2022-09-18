@@ -26,14 +26,13 @@ h1 {
     font-size: 36px;
     padding-top: 30px;
     padding-left: 30px;
-    
+    padding-bottom: 0px;
+    margin: 0px;
 }
 
 p {
     font-size: 18px;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
+    
 }
 
 /*boxes*/
@@ -47,12 +46,17 @@ p {
     border-radius: 10px;
 }
 
+.info {
+    padding: 30px;
+}
+
 .btns {
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    padding: 30px;
+    margin: 0px;
 }
 
 .btns a {
